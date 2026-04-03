@@ -1,0 +1,12 @@
+github.com 회원가입 gayoung-cloud
+
+dashborad > Repositories > New > CloudService 폴더입력
+
+로컬 = 내 컴퓨터 
+원격 = 깃 서버
+
+* git branch -M main : master가 main으로 바뀜
+* git remote -v : 원격저장소 이름과 주소 확인
+* git remote add origin http://github.com/gayoung-cloud/CloudService.git : 로컬저장소를 원격저장소와 연결
+* git remote -v
+* git push -u origin main : 업로드
