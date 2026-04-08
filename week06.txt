@@ -2,3 +2,6 @@
 
 2. 깃 / 깃허브 충돌 해결
 git log --oneline
+깃 명령어 
+git fetch
+git pull
