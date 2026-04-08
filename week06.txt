@@ -11,3 +11,5 @@ git log --oneline
 git fetch
 git pull
 
+git log --oneline --graph
+week06 파일 수동으로 conflict 해결
