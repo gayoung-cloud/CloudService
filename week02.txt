@@ -1,0 +1,41 @@
+ls = list
+ls -l = 파일들 생성된 시각정보
+ls -a = 숨긴 거 (폴더에서 ... 옆에 보기 / 표시 / 숨긴항목 클릭)
+ls -al
+
+cat
+cd 파일명 = 이동 
+cd .. = 현재 폴더에서 상위 폴더로
+
+git status = 현재 파일들 깃 여부 상태
+git init = 이 파일을 깃이 관리하도록 지정 in 로컬
+( .git 이라는 폴더가 또 생김)
+(. / .. / week01.txt 였던게 . / .. / .git / week01.txt 로 변함)
+
+
+***
+ctrl키 + L키 : 스와이프
+clear 엔터 : 스와이프
+ctrl키 + S키 : 저장
+
+<<< 정리 >>>
+리눅스 명령어 Linux command
+ls
+ls -a
+ls -l
+ls -al
+touch 파일명
+cat 파일명
+cd 파일명
+스와이프
+
+깃 명령어 Git command
+git status
+git init
+
+스와이프단축키
+저장단축키
+방향키로 그동안 입력한 명령어들 선택 가능
+
+<<< 배운 개념 >>>
+CLI / 깃랩 깃허브 비트버킷 / AWS 구글클라우드플랫폼GCP / AI 활용 주의점 / Git bash 설치 / 기초명령어

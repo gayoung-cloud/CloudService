@@ -1,0 +1,17 @@
+github.com 회원가입 gayoung-cloud
+
+dashborad > Repositories > New > CloudService 폴더입력
+
+로컬 = 내 컴퓨터 
+원격 = 깃 서버
+
+git branch -M main 
+(master가 main으로 바뀜)
+( git init 후 / 첫 커밋 전후)
+
+github.com에서 내꺼 리포지토리 Code 복사하기
+git remote add origin 주소명(http://github.com/gayoung-cloud/CloudService.git) = 로컬저장소를 원격저장소와 연결 = 앞으로 연결할 원격 알려주기
+
+git remote -v : 연결된 원격저장소의 이름과 주소 확인
+
+git push -u origin main = 업로드

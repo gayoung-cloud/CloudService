@@ -1,0 +1,6 @@
+git log --oneline
+
+git fetch
+git pull
+git log --oneline --graph
+
