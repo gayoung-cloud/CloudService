@@ -1,4 +1,4 @@
-# Fork > Pull request
+*** Fork > Pull request
 git clone 남의주소명
 * touch,입력,수정
 * git status = 빨강
@@ -10,7 +10,7 @@ git commit -m ""
 git push
 
 
-# amend 옵션
+*** amend 옵션
 2가지 conflicts 상황 해결
 
 git commit -m "CloudService"
