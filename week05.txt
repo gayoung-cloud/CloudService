@@ -1,0 +1,27 @@
+github.com 내꺼에 들어가서 Code 원격리포지토리 주소명 복사하기
+
+git clone 원격주소명 = 바탕화면에 불러오기
+git clone 원격주소명 . = 미리 새폴더 만들어놨을 때, 여기에 불러오기 (비어있어야함)
+
+cd 현재파일 = cd CloudService/
+(폴더명에 띄어쓰기 있을 경우, 끝에 / 말고 "폴더명" 이렇게)
+
+파일 수정
+git add .
+git commit -m "커밋메세지"
+
+* git remote --list : 로컬과 원격 간의 연결 목록
+* git status
+* git remote -v : 원격저장소 이름과 주소 확인
+* git log = HEAD->main  빨강origin/main
+
+git remote remove origin = 삭제 = 남의 코드를 clone했을 때 내 마음대로 push 할 수 없으니 기존 origin 연결을 지우고 내 껄로 다시 연결하려함
+* git remote -v 
+git remote add origin 원격리포지토리주소명 = 작업 올릴 내 원격 주소 알려주기
+* git remote -v 
+git push -u origin main = 내 원격서버로 업로드 (브랜치 되어있나 확인 후에)
+(-u = --set-upstream)
+
+git config --list = 설정값 확인
+(vi 에디터 : j아래로 k위로 q탈출)
+

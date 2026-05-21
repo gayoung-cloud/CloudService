@@ -1,0 +1,21 @@
+history 
+
+git add . = 스테이지에 현재 모든 파일 올리기
+git status = 깃이 관리하는가 확인
+
+ls -a
+
+git commit -m "커밋메세지" = 저장
+(해시코드가 부여되고 커밋 아이디&이메일을 남김)
+
+git config --global user.name "이름"
+git config --global user.email "이메일"
+config 명령어 = 설명, 설정 넣기 configuration
+
+git log : 커밋 기록보기 ( 노란색은 해시코드임 ) = 저장값 확인
+해시코드 앞 7자 복사하기 : Enter키 
+
+* git checkout 해시코드붙여넣기 : 세이브 포인트로 돌아가기
+* git checkout - :
+
+git status 

@@ -1,0 +1,25 @@
+*** Fork > Pull request
+git clone 남의주소명
+* touch,입력,수정
+* git status = 빨강
+git add .
+* git status = 초록
+* git log
+git commit -m ""
+* git log 
+git push
+
+
+*** amend 옵션
+2가지 conflicts 상황 해결
+
+git commit -m "CloudService"
+git commit --amend -m "클라우드서비스"
+
+
+로컬에서 파일 수정
+git add .
+git commit --amend -m "새로운메세지" = 실수,수정 안보이게 덮어쓰기
+(커밋메세지 잘못썼다 / 파일 하나 빼먹었다)
+(단, 1분전같은 바로 최근 것만)
+git push
