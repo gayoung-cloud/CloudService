@@ -1,3 +1,9 @@
+1교시
 중간고사 해설
-
 브랜치 수업
+
+2교시
+브랜치 생성 = git branch 브랜치명
+브랜치 이동 = git switch 브랜치명
+브랜치 리스트 확인 = git branch
+브랜치 병합 = git merge 병합할브랜치명
