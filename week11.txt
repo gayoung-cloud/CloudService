@@ -1,0 +1,4 @@
+ipconfig
+ping ip주소(url주소)
+pint ip주소(url주소)
+
